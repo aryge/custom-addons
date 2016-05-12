@@ -2,7 +2,7 @@
 <openerp>
     <data>
 
-        <!-- insert comment untuk percobaan -->
+
         <record id='view_form_todo_task_inherited' model='ir.ui.view'>
             <field name='name'>To-do Task Form - User Extension</field>
             <field name='model'>todo.task</field>
