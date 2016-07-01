@@ -1,0 +1,6 @@
+#!/bin/bash
+cd && pwd && sudo apt update && sudo apt update && sudo apt dist-upgrade -y && \
+source /home/odoo/odoo-9.0/bin/activate && pwd && \
+cd odoo && pwd && git pull && cd ../odoo-9 && pwd && git pull && cd ../odoo-dev/odoo && pwd && \
+git pull && cd ../../OCA/OCA-v8 && pwd && git pull && cd ../OCA-v9 && pwd && git pull \
+cd ../../documentation-user && pwd && git pull
